@@ -16,10 +16,10 @@ There are three options.
 **Put `json_path` is necessary.**
 
 ```
-python lmp_execute.py --json_path="{json_file_path}" 
-                      --origin_path="{path want to put original image}" 
-                      --target_semantic_path="{path want to put semantic label image}" 
-                      --target_instance_path="{path want to put instance label image}"
+python lmp_execute.py --json_path={json_file_path} 
+                      --origin_path={path want to put original image} 
+                      --target_semantic_path={path want to put semantic label image} 
+                      --target_instance_path={path want to put instance label image}
 ```
 
 * I'll update this for object detection dataset.

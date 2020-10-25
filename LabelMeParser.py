@@ -55,7 +55,7 @@ class LabelMap:
 
         for file in paths:
             with open(file) as json_file:
-                parsed_data = json.load(json_file)
+                parsed_data = json.load(json_file, encoding='UTF-8')
 
                 f = io.BytesIO()
                 f.write(base64.b64decode(parsed_data['imageData']))
